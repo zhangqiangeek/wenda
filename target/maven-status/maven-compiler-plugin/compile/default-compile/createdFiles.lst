@@ -1,0 +1,8 @@
+com/wenda/controller/IndexController.class
+com/wenda/model/Question.class
+com/wenda/aspect/LogAspect.class
+com/wenda/dao/QuestionDao.class
+com/wenda/service/WendaService.class
+com/wenda/dao/UserDao.class
+com/wenda/WendaApplication.class
+com/wenda/model/User.class

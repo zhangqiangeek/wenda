@@ -1,6 +1,8 @@
 package com.wenda.controller;
 
 import com.wenda.model.User;
+import com.wenda.service.WendaService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,13 +17,16 @@ import javax.servlet.http.HttpSession;
 /**
  * Created by zq on 2016/7/10.
  */
-@Controller
+//@Controller
 public class IndexController {
+    @Autowired
+    private WendaService wendaService;
 
     @RequestMapping(path = { "/", "/index" }, method = { RequestMethod.GET })
     @ResponseBody
     public String index(HttpSession session) {
-        return "hello spring boot " + session.getAttribute("msg");
+
+        return wendaService.getMessage(1) + "hello spring boot " + session.getAttribute("msg");
     }
 
     @RequestMapping(path = { "/profile/{groupId}/{userId}" })
@@ -39,8 +44,7 @@ public class IndexController {
      */
     @RequestMapping(path = { "/vm" }, method = { RequestMethod.GET })
     public String home(Model model) {
-
-        User user = new User("zhang");
+        User user = new User();
         model.addAttribute("value", "value");
         model.addAttribute("user", user);
 
@@ -72,8 +76,8 @@ public class IndexController {
         sb.append(request.getMethod() + "<br>");
         sb.append(request.getCookies() + "<br>");
         sb.append(request.getAuthType() + "<br>");
-        sb.append(request.getRequestURL() + "<br>");
         sb.append(request.getSession() + "<br>");
+        sb.append(request.getRequestURL() + "<br>");
 
         response.addHeader("test", "hello its test");
         response.addCookie(new Cookie("userName", "userName"));
@@ -100,7 +104,7 @@ public class IndexController {
 
     @RequestMapping(path = "/admin", method = { RequestMethod.GET })
     @ResponseBody
-    public String admin(@RequestParam("key") String key) {
+    public String admin(@RequestParam(value = "key") String key) {
         if (key.equals("admin")) {
             return "hello admin";
         }
@@ -110,7 +114,7 @@ public class IndexController {
     @ExceptionHandler()
     @ResponseBody
     public String error(Exception e) {
-        return "error" + e.getMessage();
+        return "error " + e.getMessage();
     }
 
 }
