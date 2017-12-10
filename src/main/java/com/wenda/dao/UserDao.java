@@ -18,6 +18,14 @@ public interface UserDao {
     @Select({ "select ", SELECT_FIELDS, " from ", TABLE_NAME, " where id=#{id}" })
     User selectById(int id);
 
+    /**
+     * 通过用户名称查找用户
+     * @param name
+     * @return
+     */
+    @Select({ "select ", SELECT_FIELDS, " from ", TABLE_NAME, " where name=#{name}" })
+    User selectByName(String name);
+
     @Update({ "update ", TABLE_NAME, " set password=#{password} where id=#{id}" })
     void updatePassword(User user);
 

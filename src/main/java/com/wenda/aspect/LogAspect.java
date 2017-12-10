@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by zq on 2017/9/3.
+ * Created by evilhex on 2017/9/3.
  */
 @Aspect
 @Component
@@ -25,7 +25,9 @@ public class LogAspect {
     public void beforeMethod(JoinPoint joinPoint) {
         StringBuilder sb = new StringBuilder();
         for (Object arg : joinPoint.getArgs()) {
-            sb.append("arg: " + arg.toString() + "|");
+            if (arg !=null) {
+                sb.append("arg: " + arg.toString() + "|");
+            }
         }
         logger.info("before method:" + sb.toString());
 
