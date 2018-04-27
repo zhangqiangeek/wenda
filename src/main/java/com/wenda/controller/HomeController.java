@@ -39,7 +39,7 @@ public class HomeController {
     @RequestMapping(path = { "/", "/index" })
     public String index(Model model) {
         List<Question> questions = questionService.getLatestQuestions(0, 0, 10);
-        List<ViewObject> vos = new ArrayList<>();
+        List<ViewObject> vos = new ArrayList<ViewObject>();
         for (Question question : questions) {
             ViewObject viewObject = new ViewObject();
             viewObject.set("question", question);
