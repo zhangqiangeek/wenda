@@ -1,7 +1,8 @@
 package com.wenda.model;
 
 /**
- * Created by zq on 2016/7/10.
+ * @author evilhex
+ *         2016/7/10
  */
 public class User {
     private int id;

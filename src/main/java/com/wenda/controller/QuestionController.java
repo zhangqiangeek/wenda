@@ -17,7 +17,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by evilhex on 2017/12/16.
+ * 问题控制器
+ *
+ * @author evilhex
+ *         2017/12/16
  */
 @Controller
 public class QuestionController {
@@ -41,45 +44,45 @@ public class QuestionController {
             question.setContent(content);
             question.setCommentCount(0);
             question.setCreatedDate(new Date());
-            if(hostHolder.getUser()==null){
+            if (hostHolder.getUser() == null) {
                 //question.setUserId(WendaUtil.ANONYMOUS_USERID);
                 return WendaUtil.getJSONString(999);
-            }else {
+            } else {
                 question.setUserId(hostHolder.getUser().getId());
             }
-            if (questionService.addQuestion(question)>0){
+            if (questionService.addQuestion(question) > 0) {
                 return WendaUtil.getJSONString(0);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.info(e.getMessage());
             logger.error("增加题目失败");
         }
-        return WendaUtil.getJSONString(1,"失败");
+        return WendaUtil.getJSONString(1, "失败");
 
     }
 
     /**
      * 问题详情
+     *
      * @param qid
      * @return
      */
-    @RequestMapping(path = {"/question/{qid}"},method = RequestMethod.GET)
-    public String selectQuestion(Model model,@PathVariable("qid") int qid){
-        Question question=questionService.selectById(qid);
-        model.addAttribute("question",question);
-        model.addAttribute("user",userService.getUser(question.getUserId()));
+    @RequestMapping(path = { "/question/{qid}" }, method = RequestMethod.GET)
+    public String selectQuestion(Model model, @PathVariable("qid") int qid) {
+        Question question = questionService.selectById(qid);
+        model.addAttribute("question", question);
+        model.addAttribute("user", userService.getUser(question.getUserId()));
 
-        List<Comment> commentList=commentService.getCommentsByEntity(qid, EntityType.ENTITY_COMMENT);
-        List<ViewObject> comments=new ArrayList<ViewObject>();
-        for (Comment comment:commentList){
-            ViewObject vo=new ViewObject();
-            vo.set("comment",comment);
-            vo.set("user",userService.getUser(comment.getUserId()));
+        List<Comment> commentList = commentService.getCommentsByEntity(qid, EntityType.ENTITY_COMMENT);
+        List<ViewObject> comments = new ArrayList<ViewObject>();
+        for (Comment comment : commentList) {
+            ViewObject vo = new ViewObject();
+            vo.set("comment", comment);
+            vo.set("user", userService.getUser(comment.getUserId()));
             comments.add(vo);
         }
-        model.addAttribute("comments",comments);
+        model.addAttribute("comments", comments);
         return "detail";
     }
-
 
 }

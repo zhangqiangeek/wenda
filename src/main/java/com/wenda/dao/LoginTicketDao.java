@@ -4,6 +4,7 @@ import com.wenda.model.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 /**
+ * 登录ticket表操作
  * Created by evilhex on 2017/12/10.
  */
 @Mapper

@@ -9,6 +9,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
+ * 问题表数据库操作
  * Created by evilhex on 2017/10/6.
  */
 @Mapper

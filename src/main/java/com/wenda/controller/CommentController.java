@@ -16,7 +16,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Date;
 
 /**
- * Created by evilhex on 2018/1/13.
+ * 评论控制器
+ *
+ * @author evilhex
+ *         2018/1/13
  */
 @Controller
 public class CommentController {
@@ -28,9 +31,8 @@ public class CommentController {
     @Autowired
     private HostHolder hostHolder;
 
-    @RequestMapping(path = {"/addComment"},method = RequestMethod.POST)
-    public String addComment(@RequestParam("questionId") int questionId,
-                             @RequestParam("content") String content){
+    @RequestMapping(path = { "/addComment" }, method = RequestMethod.POST)
+    public String addComment(@RequestParam("questionId") int questionId, @RequestParam("content") String content) {
 
         try {
             Comment comment = new Comment();
@@ -44,9 +46,9 @@ public class CommentController {
             comment.setEntityType(EntityType.ENTITY_COMMENT);
             comment.setEntityId(questionId);
             commentService.addComment(comment);
-        }catch (Exception e){
-            logger.error("添加评论失败{}",e.getMessage());
+        } catch (Exception e) {
+            logger.error("添加评论失败{}", e.getMessage());
         }
-        return "redirect:/question/"+questionId;
+        return "redirect:/question/" + questionId;
     }
 }

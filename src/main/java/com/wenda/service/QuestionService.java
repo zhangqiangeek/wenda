@@ -12,7 +12,8 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by evilhex on 2017/11/18.
+ * @author evilhex
+ *         2017/11/18
  */
 @Service
 public class QuestionService {
@@ -28,8 +29,8 @@ public class QuestionService {
 
     /**
      * 增加题目
-     * @param title
-     * @param content
+     *
+     * @param question
      * @return
      */
     public int addQuestion(Question question) {
@@ -39,15 +40,16 @@ public class QuestionService {
         question.setTitle(sensitiveService.filter(question.getTitle()));
         question.setContent(sensitiveService.filter(question.getContent()));
         System.out.println("到这里正常的");
-        return questionDao.addQuestion(question)>0?question.getId():0;
+        return questionDao.addQuestion(question) > 0 ? question.getId() : 0;
     }
 
     /**
      * 根据问题id查找
+     *
      * @param id
      * @return
      */
-    public Question selectById(int id){
+    public Question selectById(int id) {
         return questionDao.selectById(id);
     }
 }

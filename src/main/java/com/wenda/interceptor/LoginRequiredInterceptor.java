@@ -10,7 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by evilhex on 2017/12/10.
+ * 注册登录拦截器
+ *
+ * @author evilhex
+ *         2017/12/10.
  */
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
@@ -19,8 +22,8 @@ public class LoginRequiredInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        if (hostHolder.getUser()==null){
-            httpServletResponse.sendRedirect("/reglogin?next="+httpServletRequest.getRequestURI());
+        if (hostHolder.getUser() == null) {
+            httpServletResponse.sendRedirect("/reglogin?next=" + httpServletRequest.getRequestURI());
         }
         return true;
     }

@@ -4,6 +4,7 @@ import com.wenda.model.User;
 import org.apache.ibatis.annotations.*;
 
 /**
+ * 用户表数据库操作
  * Created by zq on 2017/10/6.
  */
 @Mapper
@@ -20,6 +21,7 @@ public interface UserDao {
 
     /**
      * 通过用户名称查找用户
+     *
      * @param name
      * @return
      */

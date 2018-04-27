@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
 /**
+ * 用户登录拦截器
  * Created by evilhex on 2017/12/10.
  */
 @Component
@@ -54,9 +55,9 @@ public class PassportInterceptor implements HandlerInterceptor {
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView)
             throws Exception {
-            if(modelAndView!=null){
-                modelAndView.addObject("user",hostHolder.getUser());
-            }
+        if (modelAndView != null) {
+            modelAndView.addObject("user", hostHolder.getUser());
+        }
     }
 
     @Override

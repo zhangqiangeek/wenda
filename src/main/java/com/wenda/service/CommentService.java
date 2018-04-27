@@ -9,7 +9,8 @@ import org.springframework.web.util.HtmlUtils;
 import java.util.List;
 
 /**
- * Created by evilhex on 2018/1/13.
+ * @author evilhex
+ *         2018/1/13
  */
 @Service
 public class CommentService {
@@ -26,7 +27,7 @@ public class CommentService {
         //去掉HTML标签，做敏感词过滤处理
         comment.setContent(HtmlUtils.htmlEscape(comment.getContent()));
         comment.setContent(sensitiveService.filter(comment.getContent()));
-        return commentDao.addComment(comment)>0?comment.getId():0;
+        return commentDao.addComment(comment) > 0 ? comment.getId() : 0;
     }
 
     public int getCommentCount(int entityId, int entityType) {

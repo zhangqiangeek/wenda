@@ -3,13 +3,17 @@ package com.wenda.model;
 import java.util.Date;
 
 /**
- * Created by evilhex on 2017/12/10.
+ * @author evilhex
+ *         2017/12/10
  */
 public class LoginTicket {
     private int id;
     private int userId;
     private Date expired;
-    private int status;// 0有效，1无效
+    /**
+     * 0有效，1无效
+     */
+    private int status;
     private String ticket;
 
     public int getId() {

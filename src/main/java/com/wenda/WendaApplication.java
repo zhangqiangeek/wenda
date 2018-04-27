@@ -3,11 +3,14 @@ package com.wenda;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author evilhex
+ */
 @SpringBootApplication
 public class WendaApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		SpringApplication.run(WendaApplication.class, args);
-	}
+        SpringApplication.run(WendaApplication.class, args);
+    }
 }

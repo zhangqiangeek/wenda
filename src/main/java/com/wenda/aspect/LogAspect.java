@@ -9,8 +9,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
+ * 日志拦截器：记录用户操作
+ *
  * @author evilhex
- * Created by evilhex on 2017/9/3.
+ *         2017/9/3
  */
 @Aspect
 @Component

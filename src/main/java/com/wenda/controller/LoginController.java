@@ -17,7 +17,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
- * Created by evilhex on 2017/12/10.
+ * 登录相关控制器
+ *
+ * @author evilhex
+ *         2017/12/10
  */
 @Controller
 public class LoginController {
@@ -35,11 +38,8 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/reg/" }, method = { RequestMethod.POST })
-    public String register(Model model,
-            @RequestParam("username") String username,
-            @RequestParam("password") String password,
-            @RequestParam(value = "next" ,required = false) String next,
-            HttpServletResponse response) {
+    public String register(Model model, @RequestParam("username") String username, @RequestParam("password") String password,
+            @RequestParam(value = "next", required = false) String next, HttpServletResponse response) {
 
         try {
             Map<String, String> map = userService.register(username, password);
@@ -47,8 +47,8 @@ public class LoginController {
                 Cookie cookie = new Cookie("ticket", map.get("ticket"));
                 cookie.setPath("/");
                 response.addCookie(cookie);
-                if (StringUtils.isNotBlank(next)){
-                    return "redirect:"+next;
+                if (StringUtils.isNotBlank(next)) {
+                    return "redirect:" + next;
                 }
                 return "redirect:/";
 
@@ -74,12 +74,9 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/login" }, method = { RequestMethod.POST })
-    public String register(Model model,
-            @RequestParam("username") String username,
-            @RequestParam("password") String password,
+    public String register(Model model, @RequestParam("username") String username, @RequestParam("password") String password,
             @RequestParam(value = "rememberme", defaultValue = "false") boolean rememberme,
-            @RequestParam(value = "next",required = false) String next,
-            HttpServletResponse response) {
+            @RequestParam(value = "next", required = false) String next, HttpServletResponse response) {
         try {
 
             Map<String, String> map = userService.login(username, password);
@@ -87,8 +84,8 @@ public class LoginController {
                 Cookie cookie = new Cookie("ticket", map.get("ticket"));
                 cookie.setPath("/");
                 response.addCookie(cookie);
-                if (StringUtils.isNotBlank(next)){
-                    return "redirect:"+next;
+                if (StringUtils.isNotBlank(next)) {
+                    return "redirect:" + next;
                 }
                 return "redirect:/";
 
@@ -109,14 +106,14 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/reglogin" }, method = { RequestMethod.GET })
-    public String register(Model model,
-            @RequestParam(value = "next",required = false) String next) {
-        model.addAttribute("next",next);
+    public String register(Model model, @RequestParam(value = "next", required = false) String next) {
+        model.addAttribute("next", next);
         return "login";
     }
 
     /**
      * 注销
+     *
      * @param ticket
      * @return
      */

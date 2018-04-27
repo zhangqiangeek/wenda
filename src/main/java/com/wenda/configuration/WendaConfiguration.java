@@ -8,7 +8,10 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Created by evilhex on 2017/12/10.
+ * 配置类：注册拦截器
+ *
+ * @author evilhex
+ *         2017/12/10
  */
 @Component
 public class WendaConfiguration extends WebMvcConfigurerAdapter {
@@ -16,7 +19,7 @@ public class WendaConfiguration extends WebMvcConfigurerAdapter {
     private PassportInterceptor passportInterceptor;
 
     @Autowired
-    private  LoginRequiredInterceptor loginRequiredInterceptor;
+    private LoginRequiredInterceptor loginRequiredInterceptor;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

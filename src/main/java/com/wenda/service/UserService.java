@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * Created by evilhex on 2017/11/18.
+ * @author evilhex
+ *         2017/11/18
  */
 @Service
 public class UserService {
@@ -47,8 +48,8 @@ public class UserService {
         user.setPassword(WendaUtil.MD5(password + user.getSalt()));
         userDao.addUser(user);
 
-        String ticket=addTicket(user.getId());
-        map.put("ticket",ticket);
+        String ticket = addTicket(user.getId());
+        map.put("ticket", ticket);
 
         return map;
 
@@ -72,8 +73,8 @@ public class UserService {
             map.put("msg", "密码不正确");
             return map;
         }
-        String ticket=addTicket(user.getId());
-        map.put("ticket",ticket);
+        String ticket = addTicket(user.getId());
+        map.put("ticket", ticket);
 
         return map;
 
@@ -81,11 +82,13 @@ public class UserService {
 
     /**
      * 注销
+     *
      * @param ticket
      */
-    public void logout(String ticket){
-        loginTicketDao.updateStatus(ticket,1);
+    public void logout(String ticket) {
+        loginTicketDao.updateStatus(ticket, 1);
     }
+
     public User getUser(int id) {
         return userDao.selectById(id);
     }

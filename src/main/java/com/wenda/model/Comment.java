@@ -3,7 +3,7 @@ package com.wenda.model;
 import java.util.Date;
 
 /**
- * Created by evilhex on 2018/1/13.
+ * @author evilhex
  */
 public class Comment {
     private int id;

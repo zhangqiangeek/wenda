@@ -8,12 +8,15 @@ import java.security.MessageDigest;
 import java.util.Map;
 
 /**
- * Created by evilhex on 2017/12/10.
+ * 问答工具类
+ *
+ * @author evilhex
+ *         2017/12/10
  */
 public class WendaUtil {
     private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
 
-    public static int ANONYMOUS_USERID=3;
+    public static int ANONYMOUS_USERID = 3;
 
     public static String getJSONString(int code) {
         JSONObject json = new JSONObject();
@@ -38,9 +41,7 @@ public class WendaUtil {
     }
 
     public static String MD5(String key) {
-        char hexDigits[] = {
-                '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'
-        };
+        char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
         try {
             byte[] btInput = key.getBytes();
             // 获得MD5摘要算法的 MessageDigest 对象
