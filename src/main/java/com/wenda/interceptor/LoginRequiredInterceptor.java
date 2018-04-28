@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 注册登录拦截器
+ * 未登录拦截，登陆后跳转
  *
  * @author evilhex
  *         2017/12/10.

@@ -39,7 +39,6 @@ public class QuestionService {
         //敏感词过滤
         question.setTitle(sensitiveService.filter(question.getTitle()));
         question.setContent(sensitiveService.filter(question.getContent()));
-        System.out.println("到这里正常的");
         return questionDao.addQuestion(question) > 0 ? question.getId() : 0;
     }
 

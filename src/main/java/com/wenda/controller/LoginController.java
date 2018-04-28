@@ -38,11 +38,15 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/reg/" }, method = { RequestMethod.POST })
-    public String register(Model model, @RequestParam("username") String username, @RequestParam("password") String password,
-            @RequestParam(value = "next", required = false) String next, HttpServletResponse response) {
+    public String register(Model model,
+            @RequestParam("username") String username,
+            @RequestParam("password") String password,
+            @RequestParam(value = "next", required = false) String next,
+            HttpServletResponse response) {
 
         try {
             Map<String, String> map = userService.register(username, password);
+            //获取到了ticket，登录成功
             if (map.containsKey("ticket")) {
                 Cookie cookie = new Cookie("ticket", map.get("ticket"));
                 cookie.setPath("/");
@@ -53,6 +57,7 @@ public class LoginController {
                 return "redirect:/";
 
             } else {
+                //含有msg，登录出错
                 model.addAttribute("msg", map.get("msg"));
                 return "login";
             }
@@ -74,9 +79,12 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/login" }, method = { RequestMethod.POST })
-    public String register(Model model, @RequestParam("username") String username, @RequestParam("password") String password,
+    public String register(Model model,
+            @RequestParam("username") String username,
+            @RequestParam("password") String password,
             @RequestParam(value = "rememberme", defaultValue = "false") boolean rememberme,
-            @RequestParam(value = "next", required = false) String next, HttpServletResponse response) {
+            @RequestParam(value = "next", required = false) String next,
+            HttpServletResponse response) {
         try {
 
             Map<String, String> map = userService.login(username, password);
@@ -84,6 +92,7 @@ public class LoginController {
                 Cookie cookie = new Cookie("ticket", map.get("ticket"));
                 cookie.setPath("/");
                 response.addCookie(cookie);
+                //登录自动跳转
                 if (StringUtils.isNotBlank(next)) {
                     return "redirect:" + next;
                 }
@@ -106,7 +115,8 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = { "/reglogin" }, method = { RequestMethod.GET })
-    public String register(Model model, @RequestParam(value = "next", required = false) String next) {
+    public String register(Model model,
+            @RequestParam(value = "next", required = false) String next) {
         model.addAttribute("next", next);
         return "login";
     }
