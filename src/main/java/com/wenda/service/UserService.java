@@ -62,7 +62,7 @@ public class UserService {
      * @param password
      * @return
      */
-    public Map<String, String>  login(String username, String password) {
+    public Map<String, String> login(String username, String password) {
         Map<String, String> map = new HashMap<String, String>(16);
         if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             map.put("msg", "用户名称或密码不能为空");
@@ -111,4 +111,13 @@ public class UserService {
         return loginTicket.getTicket();
     }
 
+    /**
+     * 根据用户名称查找用户
+     *
+     * @param name
+     * @return
+     */
+    public User selectByName(String name) {
+        return userDao.selectByName(name);
+    }
 }

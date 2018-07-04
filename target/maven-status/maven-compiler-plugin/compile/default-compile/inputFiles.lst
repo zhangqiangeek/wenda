@@ -7,6 +7,7 @@
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/interceptor/LoginRequiredInterceptor.java
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/dao/QuestionDao.java
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/aspect/LogAspect.java
+/Users/evilhex/workspace/wenda/src/main/java/com/wenda/util/ZkUtil.java
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/model/HostHolder.java
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/service/SensitiveService.java
 /Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/IndexController.java

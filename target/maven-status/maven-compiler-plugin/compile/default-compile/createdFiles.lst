@@ -1,5 +1,6 @@
 com/wenda/model/Comment.class
 com/wenda/service/WendaService.class
+com/wenda/util/ZkUtil$ConnectHolder.class
 com/wenda/dao/QuestionDao.class
 com/wenda/controller/IndexController.class
 com/wenda/controller/HomeController.class
@@ -14,6 +15,7 @@ com/wenda/model/User.class
 com/wenda/service/SensitiveService$1.class
 com/wenda/service/UserService.class
 com/wenda/service/QuestionService.class
+com/wenda/util/ZkUtil.class
 com/wenda/configuration/WendaConfiguration.class
 com/wenda/controller/LoginController.class
 com/wenda/interceptor/LoginRequiredInterceptor.class
@@ -26,4 +28,5 @@ com/wenda/dao/UserDao.class
 com/wenda/aspect/LogAspect.class
 com/wenda/model/HostHolder.class
 com/wenda/model/ViewObject.class
+com/wenda/util/ZkUtil$1.class
 com/wenda/WendaApplication.class
