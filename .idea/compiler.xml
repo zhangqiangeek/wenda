@@ -10,16 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="client" target="1.8" />
-      <module name="cloud" target="1.8" />
-      <module name="ConcurrentUtil" target="1.8" />
-      <module name="eureka" target="1.8" />
-      <module name="gateway" target="1.8" />
-      <module name="gs-gateway" target="1.8" />
-      <module name="ribbon" target="1.8" />
       <module name="wenda" target="1.8" />
-      <module name="zuul" target="1.8" />
-      <module name="zuul2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
