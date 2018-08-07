@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>wenda</name>
-    <description>Demo project for Spring Boot</description>
+    <description>一个简单的练手小项目</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -75,6 +75,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>21.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.29</version>
         </dependency>
 
     </dependencies>
