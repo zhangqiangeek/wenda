@@ -17,6 +17,7 @@ import java.util.Map;
 
 /**
  * Mybatis数据源配置
+ * 参考：https://blog.csdn.net/YHYR_YCY/article/details/78894940
  *
  * @author evilhex.
  * @date 2018/7/27 下午2:48.
