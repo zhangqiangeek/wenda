@@ -4,7 +4,24 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../apollo/apollo-adminservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-assembly/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-buildtools/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-configservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-mockserver/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

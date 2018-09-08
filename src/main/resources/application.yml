@@ -26,9 +26,4 @@ mysql:
 mybatis:
   config-location: classpath:mybatis-config.xml
 
- 
-### \u670D\u52A1\u5668\u542F\u52A8\u7AEF\u53E3\u914D\u7F6E
-server:
-  port: 8000
-
 

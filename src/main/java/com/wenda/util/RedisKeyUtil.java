@@ -10,6 +10,7 @@ public class RedisKeyUtil {
     private static String SPLIT = ":";
     private static String BIZ_LIKE = "like";
     private static String BIZ_DISLIKE = "disLike";
+    private static String BIZ_EVENTQUEUE = "EVENT_QUEUE";
 
     /**
      * 生成likeKey
@@ -31,6 +32,10 @@ public class RedisKeyUtil {
      */
     public static String getDisLikeKey(int entityType, int entityId) {
         return BIZ_DISLIKE + SPLIT + String.valueOf(entityType) + SPLIT + String.valueOf(entityId);
+    }
+
+    public static String getEventQueueKey() {
+        return BIZ_EVENTQUEUE;
     }
 
 }

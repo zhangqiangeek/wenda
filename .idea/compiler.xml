@@ -10,6 +10,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="apollo" target="1.8" />
+      <module name="apollo-adminservice" target="1.8" />
+      <module name="apollo-assembly" target="1.8" />
+      <module name="apollo-biz" target="1.8" />
+      <module name="apollo-buildtools" target="1.8" />
+      <module name="apollo-client" target="1.7" />
+      <module name="apollo-common" target="1.8" />
+      <module name="apollo-configservice" target="1.8" />
+      <module name="apollo-core" target="1.7" />
+      <module name="apollo-demo" target="1.7" />
+      <module name="apollo-mockserver" target="1.8" />
+      <module name="apollo-portal" target="1.8" />
       <module name="wenda" target="1.8" />
     </bytecodeTargetLevel>
   </component>

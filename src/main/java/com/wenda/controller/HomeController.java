@@ -44,11 +44,10 @@ public class HomeController {
         for (Question question : questions) {
             ViewObject viewObject = new ViewObject();
             viewObject.set("question", question);
-            viewObject.set("user", userService.getUser(question.getId()));
+            viewObject.set("user", userService.getUser(question.getUserId()));
             vos.add(viewObject);
         }
         model.addAttribute("vos", vos);
-
         return "index";
     }
 
