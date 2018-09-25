@@ -1,7 +1,7 @@
 package com.wenda.util;
 
 /**
- * 确保key的生成不重复
+ * 生成redis各种key
  *
  * @author evilhex.
  * @date 2018/7/20 下午6:11.
@@ -11,6 +11,10 @@ public class RedisKeyUtil {
     private static String BIZ_LIKE = "like";
     private static String BIZ_DISLIKE = "disLike";
     private static String BIZ_EVENTQUEUE = "EVENT_QUEUE";
+    /** 粉丝 **/
+    private static String BIZ_FOLLOW = "FOLLOWER";
+    /** 关注对象 **/
+    private static String BIZ_FOLLOWEE = "FOLLOWEE";
 
     /**
      * 生成likeKey
@@ -38,4 +42,25 @@ public class RedisKeyUtil {
         return BIZ_EVENTQUEUE;
     }
 
+    /**
+     * 生成粉丝的key
+     *
+     * @param entityType
+     * @param entityId
+     * @return
+     */
+    public static String getBizFollowerKey(int entityType, int entityId) {
+        return BIZ_FOLLOW + SPLIT + String.valueOf(entityType) + SPLIT + String.valueOf(entityId);
+    }
+
+    /**
+     * 生成关注者的key
+     *
+     * @param userId
+     * @param entityType
+     * @return
+     */
+    public static String getBizFolloweeKey(int userId, int entityType) {
+        return BIZ_FOLLOWEE + SPLIT + String.valueOf(userId) + SPLIT + String.valueOf(entityType);
+    }
 }

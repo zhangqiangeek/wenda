@@ -23,6 +23,10 @@ public class QuestionService {
     @Autowired
     private SensitiveService sensitiveService;
 
+    public Question getById(int id) {
+        return questionDao.getById(id);
+    }
+
     public List<Question> getLatestQuestions(int userId, int offset, int limit) {
         return questionDao.selectLatestQuestions(userId, offset, limit);
     }

@@ -7,7 +7,7 @@ package com.wenda.async;
  * @date 2018/8/8 下午3:30.
  */
 public enum EventType {
-    LIKE(0), COMMENT(1), LOGIN(2), MAIL(3);
+    LIKE(0), COMMENT(1), LOGIN(2), MAIL(3),FOLLOW(4),UNFOLLOW(5);
 
     private int value;
 
