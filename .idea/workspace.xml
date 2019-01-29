@@ -2,148 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="623c7991-5ea6-4df0-a6be-c350a3083cb9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wenda/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wenda/service/FollowService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wenda/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wenda/util/JedisAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wenda/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wenda/util/RedisKeyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/spinner2.8f60205d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2.4c54885a.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2@2x.6e638473.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites.auto.915a539c.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites@2x.auto.dd5c79c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/070a9fb26_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/070a9fb26_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/102799979_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/102799979_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/1ce495b02_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/1ce495b02_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/41d652d947a489e056b0179ba137294b_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/4528283ed249589634546327431667bf_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6088e39f2_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6088e39f2_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/935f87219_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/935f87219_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a3f80f6a6_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-suggested-avatar.c5af416d.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-validation@2x.65147043.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b144d91ec_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b144d91ec_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b85ddd8aa_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c28e9af7f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c79247853_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c79247853_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c94c92af8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c94c92af8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/captcha.gif" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/captcha.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e174d6d0c_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e6f4caaaa_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fff25000064308791f739149af611439_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/hour.3d371c99.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/hour.3d371c99.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/nacl.656ec1c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/nacl.656ec1c4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/weekly.65279d61.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/weekly.65279d61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/aza-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/aza-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/base.fb262f0e.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/base.fb262f0e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/common.fed5411f.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/common.fed5411f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/ga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/instant.e7a17de6.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/instant.e7a17de6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupMsg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/page-index.d7b54ac7.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/page-main.5d4c554d.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/page-main.5d4c554d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/vendor.ff76fbae.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/vendor.ff76fbae.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/za-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/za-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/letter.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/letter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/result.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/letter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/WendaApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wenda-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/wenda-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wenda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wenda.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../apollo/apollo-buildtools/target/" />
@@ -193,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -352,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wenda/util/RedisKeyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wenda/service/FollowService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nowcoder/TransactionTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -442,8 +311,9 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="profile&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/resources/templates/profile.html&#10;home&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/HomeController.java&#10;index.&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/resources/templates/index.html&#10;eventt&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/async/EventType.java&#10;cons&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/async/EventConsumer.java&#10;lik&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/LikeController.java&#10;redisu&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/util/RedisKeyUtil.java&#10;homecon&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/HomeController.java&#10;ho&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/model/HostHolder.java&#10;host&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/model/HostHolder.java&#10;login&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/LoginController.java&#10;hos&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/model/HostHolder.java&#10;hom&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/HomeController.java&#10;MbeanTest&#9;PSI&#9;JAVA://com.wenda.model.MbeanTest&#10;ind&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/IndexController.java&#10;je&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/util/JedisAdapter.java&#10;inde&#9;FILE&#9;file:///Users/evilhex/workspace/wenda/src/main/java/com/wenda/controller/IndexController.java&#10;guava&#9;FILE&#9;file:///Users/evilhex/.m2/repository/com/google/guava/guava/21.0/guava-21.0.pom" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548730201960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548730445732" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -719,12 +589,12 @@
       <workItem from="1536749613001" duration="526000" />
       <workItem from="1537409712357" duration="6287000" />
       <workItem from="1537845536742" duration="4709000" />
-      <workItem from="1548729319684" duration="695000" />
+      <workItem from="1548729319684" duration="946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144744000" />
+    <option name="totallyTimeSpent" value="144995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,7 +623,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28996283" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.54275095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54275095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
@@ -761,7 +631,7 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3283767" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329602" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.329602" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32713756" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32713756" />
       <window_info anchor="right" id="Maven" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -793,13 +663,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wenda/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1204,6 +1067,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
