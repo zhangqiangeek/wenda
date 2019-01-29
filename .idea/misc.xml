@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/../apollo/apollo-core/pom.xml" />
         <option value="$PROJECT_DIR$/../apollo/apollo-demo/pom.xml" />
         <option value="$PROJECT_DIR$/../apollo/apollo-mockserver/pom.xml" />
+        <option value="$PROJECT_DIR$/../apollo/apollo-openapi/pom.xml" />
         <option value="$PROJECT_DIR$/../apollo/apollo-portal/pom.xml" />
         <option value="$PROJECT_DIR$/../apollo/pom.xml" />
       </set>

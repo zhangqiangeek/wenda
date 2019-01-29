@@ -21,6 +21,7 @@
       <module name="apollo-core" target="1.7" />
       <module name="apollo-demo" target="1.7" />
       <module name="apollo-mockserver" target="1.8" />
+      <module name="apollo-openapi" target="1.7" />
       <module name="apollo-portal" target="1.8" />
       <module name="wenda" target="1.8" />
     </bytecodeTargetLevel>
